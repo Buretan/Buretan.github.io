@@ -1,0 +1,14 @@
+.header{
+  height: 300px;
+  background-color: #0ff;
+}
+
+.main{
+  height: 300px;
+  background-color: #0f0;
+}
+
+.footer{
+  height: 300px;
+  background-color: #00f;
+}
