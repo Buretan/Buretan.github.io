@@ -1,20 +1,24 @@
 .header{
   padding: 20px;
   height: 100px;
-  background-color: #0ff;
+  background-color: #0f9;
 }
 .profile{
   font-size: 30px;
   color: #fff;
-  
+
 }
 
 .main{
+  padding: 30px;
   height: 500px;
-  background-color: #fff;
+  background-color: #000;
+  color: #eee;
+
+
 }
 
 .footer{
   height: 100px;
-  background-color: #00f;
+  background-color: #0f9;
 }
