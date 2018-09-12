@@ -1,26 +1,61 @@
 .header{
-  padding: 20px;
+  padding: 10px;
   height: 100px;
   background-color: #0f9;
+  display: block;
 }
-.profile{
+.title{
   font-size: 30px;
   color: #fff;
 
 }
-
+span{
+  font-size: 20px;
+}
 .main{
   padding: 30px;
-  height: 500px;
+  height: 1500px;
   background-color: #000;
   color: #eee;
 
 }
-
 .footer{
   height: 100px;
   background-color: #030;
 }
+
+/*コメント欄の設定*/
+.comment-form {
+  padding-top: 10px;
+}
+
+/* inputとtextareaのCSSを指定してください */
+input{
+  width:400px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+textarea{
+  width:400px;
+  height: 200px;
+  margin-top:10px;
+  margin-bottom:30px;
+  padding:20px;
+  font-size:18px;
+  border:1px solid #dee7ec;
+}
+
+/* contact-submitのCSSを指定してください */
+.contact-submit{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+/*ーーーーーーーーー*/
+
+
 /*ボタンの設定*/
 .btn{
   display: inline-block;
