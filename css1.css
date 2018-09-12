@@ -1,27 +1,42 @@
 .header{
-  padding: 10px;
+  margin: 15px auto;
+  padding: 30px;
+  width: 700px;
   height: 100px;
   background-color: #0f9;
   display: block;
 }
 .title{
   font-size: 30px;
-  color: #fff;
+  color: #000;
 
 }
 span{
   font-size: 20px;
 }
 .main{
+  margin: 15px auto;
   padding: 30px;
-  height: 1500px;
+  width: 700px;
+  height: auto;
   background-color: #000;
   color: #eee;
 
 }
 .footer{
+  margin: 15px auto;
+  padding: 30px;
+  width: 700px;
   height: 100px;
   background-color: #030;
+}
+
+.pre-comment{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+  border:solid 1px #fff;
+
 }
 
 /*コメント欄の設定*/
@@ -52,30 +67,4 @@ textarea{
 .contact-submit{
   background-color:#dee7ec;
   color:#889eab;
-}
-/*ーーーーーーーーー*/
-
-
-/*ボタンの設定*/
-.btn{
-  display: inline-block;
-  cursor: pointer;
-  padding: 12px 80px;
-  background-color: #5dca88;
-  box-shadow: 0px 5px #279C56;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 12px;
-}
-
-.btn:active{
-  position: relative;
-  top: 5px;
-  box-shadow: none;
-}
-/*リンクの設定*/
-#text{
-  font-size: 30px;
-  color: #fff;
-
 }
