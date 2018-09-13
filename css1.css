@@ -9,7 +9,6 @@
 .title{
   font-size: 30px;
   color: #000;
-
 }
 span{
   font-size: 20px;
@@ -21,7 +20,6 @@ span{
   height: auto;
   background-color: #000;
   color: #eee;
-
 }
 .footer{
   margin: 15px auto;
@@ -29,21 +27,58 @@ span{
   width: 700px;
   height: 100px;
   background-color: #030;
+  color:#fff;
+}
+.like-Food{
+  margin: 10px;
+  padding: 10px;
+border: solid 10px #fff;
 }
 
 .pre-comment{
   font-weight: bold;
   font-style: italic;
-  font-size: 40px;
+  font-size: 15px;
   border:solid 1px #fff;
-
 }
-
+.btn1{
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 80px;
+  background-color: #5dca88;
+  box-shadow: 0px 5px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+.btn1:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+.btn2{
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 80px;
+  background-color: #5dca88;
+  box-shadow: 0px 5px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+.btn2:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
 /*コメント欄の設定*/
 .comment-form {
-  padding-top: 10px;
+  margin: 20px;
+  padding: 0px 35px;
+  background-color: #333;
+  border: solid;
+  text-align: center;
 }
-
 /* inputとtextareaのCSSを指定してください */
 input{
   width:400px;
@@ -62,9 +97,37 @@ textarea{
   font-size:18px;
   border:1px solid #dee7ec;
 }
-
 /* contact-submitのCSSを指定してください */
 .contact-submit{
+  cursor: pointer;
   background-color:#dee7ec;
   color:#889eab;
 }
+.hover-text{
+  display: none;
+}
+/*ボタンの設定
+.btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 12px 80px;
+  background-color: #5dca88;
+  box-shadow: 0px 5px #279C56;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+}
+
+.btn:active{
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+リンクの設定
+#text{
+  font-size: 30px;
+  color: #fff;
+
+}
+
