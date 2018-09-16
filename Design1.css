@@ -1,0 +1,129 @@
+.top-image{
+  width: 1000px;
+  height: 1000px;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+  padding: 1% 1%;
+  margin: 1% 1%;
+
+}
+.about{
+  width: 1000px;
+  height: 1100px;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  border: 1px solid #000;
+  background-image: url(tolet.png);
+  background-repeat:round;
+}
+.about li{
+  list-style: none;
+}
+.content1{
+  float: left;
+  width: 600px;
+  height: 250px;
+  padding: 10px 200px;
+  margin: 0px 0px;
+  border: 1px solid #000;
+}
+.text1{
+  float: left;
+  width: 230px;
+  height: 128px;
+  padding: 60px 50px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  font-size: 60px;
+}
+.img1{
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.content2{
+  float: left;
+  width: 600px;
+  height: 250px;
+  padding: 10px 200px;
+  margin: 0px 0px;
+  border: 1px solid #000;
+}
+.text2{
+  float: left;
+  width: 230px;
+  height: 128px;
+  padding: 60px 50px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  font-size: 30px;
+}
+.img2{
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.content3{
+  float: left;
+  width: 600px;
+  height: 250px;
+  padding: 10px 200px;
+  margin: 0px 0px;
+  border: 1px solid #000;
+}
+.text3{
+  float: left;
+  width: 230px;
+  height: 128px;
+  padding: 60px 50px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  font-size: 30px;
+}
+.img3{
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.content4{
+  float: left;
+  width: 600px;
+  height: 250px;
+  padding: 10px 200px;
+  margin: 0px 0px;
+  border: 1px solid #000;
+}
+.text4{
+  float: left;
+  width: 230px;
+  height: 128px;
+  padding: 60px 50px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  font-size: 30px;
+}
+.img4{
+  float: left;
+  width: 250px;
+  height: 250px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
