@@ -1,42 +1,59 @@
 .header{
-  margin: 15px auto;
+  margin: -10px auto;
   padding: 30px;
-  width: 700px;
-  height: 100px;
-  background-color: #0f9;
-  display: block;
+  width: 100%;
+  max-width: 950px;
+  height: 200px;
+  top:0px;
+  background-image: url(width-logo.png);
+  background-repeat: round;
 }
+
 .title{
   font-size: 30px;
-  color: #000;
+  color: #fff;
 }
-span{
+.subtitle{
   font-size: 20px;
 }
+a{
+  float: left;
+  margin-top: 70px;
+  margin-right: 5px;
+  padding: 5px;
+  width: auto;
+  background-color: red;
+}
+a:hover{
+  background-color: pink;
+  }
 .main{
   margin: 15px auto;
   padding: 30px;
-  width: 700px;
+  width: 100%;
+  max-width: 950px;
   height: auto;
-  background-color: #000;
+  background-color: #333;
   color: #eee;
 }
 .footer{
   margin: 15px auto;
   padding: 30px;
-  width: 700px;
+  width: 100%;
+  max-width: 950px;
   height: 100px;
   background-color: #030;
   color:#fff;
 }
 .action-list{
-  margin: 10px;
+  height: 500px;
+  margin: 0px;
   padding: 10px;
-  border: solid 10px #0ff;
   color: #f0f;
   text-align: right;
-  background-image:url("Toilet.png");
+  background-image: url(Toilet.png);
   background-repeat: round;
+  font-size: 35px;
 }
 
 .pre-comment{
@@ -48,12 +65,13 @@ span{
 .btn1{
   display: inline-block;
   cursor: pointer;
+  margin-top: 5px;
   padding: 12px 80px;
   background-color: #5dca88;
   box-shadow: 0px 5px #279C56;
-  border-radius: 3px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 12px;
+  font-size: 30px;
 }
 .btn1:active{
   position: relative;
@@ -63,12 +81,13 @@ span{
 .btn2{
   display: inline-block;
   cursor: pointer;
+  margin-top: 5px;
   padding: 12px 80px;
   background-color: #5dca88;
   box-shadow: 0px 5px #279C56;
-  border-radius: 3px;
+  border-radius: 25px;
   color: #fff;
-  font-size: 12px;
+  font-size: 30px;
 }
 .btn2:active{
   position: relative;
@@ -110,28 +129,3 @@ textarea{
 .hover-text{
   display: none;
 }
-/*ボタンの設定
-.btn{
-  display: inline-block;
-  cursor: pointer;
-  padding: 12px 80px;
-  background-color: #5dca88;
-  box-shadow: 0px 5px #279C56;
-  border-radius: 3px;
-  color: #fff;
-  font-size: 12px;
-}
-
-.btn:active{
-  position: relative;
-  top: 5px;
-  box-shadow: none;
-}
-
-リンクの設定
-#text{
-  font-size: 30px;
-  color: #fff;
-
-}
-
