@@ -37,14 +37,16 @@ a:hover{
   color: #eee;
 }
 .footer{
-  margin: 15px auto;
+  margin: auto;
   padding: 30px;
   width: 100%;
   max-width: 950px;
-  height: 100px;
-  background-color: #030;
+  height: 200px;
+  background-image: url(width-logo.png);
+  background-repeat: round;
   color:#fff;
 }
+
 .action-list{
   height: 500px;
   margin: 0px;
