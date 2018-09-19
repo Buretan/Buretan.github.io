@@ -14,48 +14,87 @@
             <br>
             <span class="subtitle">~subtitle~</span>
             <br>
-            <div class="link">
-              <a href="index.html">top</a>
-              <a href="Design1.html">about</a>
-            </div>
           </div>
         </div>
       <!--本文　-->
 
       <div class="main">
+        <ul id="slanting01">
+            <li>
+                <img class="img" src="Toilet.png" alt="">
+            </li>
+            <li>
+                <img class="img" src="Toilet.png" alt="">
+            </li>
+            <li>
+                <img class="img" src="Toilet.png" alt="">
+            </li>
+          </ul>
+            <div class="link">
+              <a href="index.html">top</a>
+              <a href="Design1.html">about</a>
+            </div>
         <div class="action-list">
           座ったほうがはねないのに
         </div>
 
-          <pre class="pre-comment">
-          preテキスト
-          テスト記入
+          <pre class="window" id="monitor">入力ボタンを押すとコメント欄の内容が表示されます。
           </pre>
-          <div class="btn1" id="fadeOut-text">消去ボタン
-          </div>
-          <div class="btn2" id="fadeIn-text">復帰ボタン
-          </div>
         <div class="comment-form">
           <h3 class="section-title">コメント欄(仮)</h3>
-          <p>ハンドルネーム</p>
-          <!-- <input>要素を追加してください -->
-          <input type="text/submit/hidden/button/image" name="" id="" value="" />
-          <p>コメント</p>
-          <!-- <textarea>要素を追加してください -->
-          <textarea></textarea>
-          <!-- <input>要素を追加してください -->
-          <input class="contact-submit" type="submit" value="送信" />
-          <div class="hover-text">
-            押しても何も送信しません。
-
+          <div class="hover-text">ちーーーーーーっす(ﾟДﾟ　)
           </div>
+          <form name="form1">
+            <textarea id="text" name="textarea1" value="1" rows="5" cols="80"></textarea>
+          </form>
+          <div class="btn" id="btn1"  onclick="btn1Click();">入力
+          </div>
+          <div class="btn" id="btn2"  onclick="btn2Click();">削除
+          </div>
+          <div class="btn" id="fadeOut-text">ウィンドウ消去
+          </div>
+          <div class="btn" id="fadeIn-text">ウィンドウ復帰
+          </div>
+
         </div>
-      </div>
-      <script src="js1.js"></script>
+        </div>
+        <div class="footer">ご覧のスポンサーの提供でお送りしております
+        </div>
+      
+      <script type="text/javascript">
+      $(function(){
+        // 「#送信ボタン」へカーソルを合わせた時の動作
+        $('.comment-form').hover(
+          function(){
+            $('.hover-text').fadeIn();
+        },
+          function(){
+            $('.hover-text').fadeOut();
+          })
+
+        $('#fadeIn-text').click(function(){   //復帰ボタンの動作
+        $('.window').fadeIn();           //押すとpreテキストが復帰する
+        });
+        $('#fadeOut-text').click(function(){　//消去ボタンの動作
+        $('.window').fadeOut();          //押すとpreテキストが消える
+        });
+
+      });
+
+        //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
+        function btn1Click(){
+        //変数t1を宣言しテキストエリアの値(value)を代入
+        var t1=document.form1.textarea1.value;
+        //モニター画面にt１を代入
+        document.getElementById("monitor").innerHTML=t1;
+                            }
+
+        //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
+        function btn2Click(){
+        //モニター画面に空白を代入
+        document.getElementById("monitor").innerHTML="";
+                          }
+
+      </script>
     </body>
-    <div class="footer">ご覧のスポンサーの提供でお送りしております
-
-    </div>
-
-
-  </html>
+    </html>
