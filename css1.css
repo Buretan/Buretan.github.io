@@ -183,7 +183,7 @@ textarea{
   width: 250px;
   height: 250px;
   border: 0px solid #000;
-  background-image: url(D:/WebDesign1/img/logo.png);
+  background-image: url(logo.png);
   background-repeat: round;
 }
 .text2{
@@ -207,7 +207,7 @@ textarea{
   width: 250px;
   height: 250px;
   border: 0px solid #000;
-  background-image: url(D:/WebDesign1/img/logo.png);
+  background-image: url(logo.png);
   background-repeat: round;
 }
 .text3{
@@ -231,7 +231,7 @@ textarea{
   width: 250px;
   height: 250px;
   border: 0px solid #000;
-  background-image: url(D:/WebDesign1/img/logo.png);
+  background-image: url(logo.png);
   background-repeat: round;
 }
 .text4{
@@ -255,6 +255,6 @@ textarea{
   width: 250px;
   height: 250px;
   border: 0px solid #000;
-  background-image: url(D:/WebDesign1/img/logo.png);
+  background-image: url(logo.png);
   background-repeat: round;
 }
