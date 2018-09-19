@@ -33,11 +33,12 @@ a:hover{
   height: auto;
   background-color: #333;
   color: #eee;
+  overflow: hidden;
 }
 #slanting01 {
   display: inline-flex;
-  width: 80%;
-  margin: 0px 65px;
+  width: 100%;
+  height: 180px;
   background:red;
   transform:skewX(30deg);
   overflow: hidden;
@@ -47,8 +48,8 @@ li{
   overflow: hidden;
 }
 .img{
-  width: 75%;
-  height: 100%;
+  width: 80%;
+  height: 200px;
   transform: skewx(-30deg);
 }
 .footer{
