@@ -19,7 +19,7 @@
 a{
   float: left;
   margin-right: 5px;
-  padding: 5px;
+  padding:0px 5px;
   width: auto;
 }
 a:hover{
@@ -34,8 +34,25 @@ a:hover{
   background-color: #333;
   color: #eee;
 }
+#slanting01 {
+  display: inline-flex;
+  width: 80%;
+  margin: 0px 65px;
+  background:red;
+  transform:skewX(30deg);
+  overflow: hidden;
+}
+li{
+  list-style: none;
+  overflow: hidden;
+}
+.img{
+  width: 75%;
+  height: 100%;
+  transform: skewx(-30deg);
+}
 .footer{
-  margin: auto;
+  margin:15px auto;
   padding: 30px;
   width: 100%;
   max-width: 950px;
@@ -55,41 +72,30 @@ a:hover{
   background-repeat: round;
   font-size: 35px;
 }
-
-.pre-comment{
+.window{
+  width:100%;
+  height: 200px;
+  padding: 10px;
   font-weight: bold;
   font-style: italic;
-  font-size: 15px;
+  font-size: 30px;
   border:solid 1px #fff;
+  overflow: scroll;
 }
-.btn1{
+.btn{
   display: inline-block;
   cursor: pointer;
+  width: auto;
   margin-top: 5px;
-  padding: 12px 80px;
+  padding: 12px 20px;
   background-color: #5dca88;
   box-shadow: 0px 5px #279C56;
   border-radius: 25px;
   color: #fff;
   font-size: 30px;
+  text-align: center;
 }
-.btn1:active{
-  position: relative;
-  top: 5px;
-  box-shadow: none;
-}
-.btn2{
-  display: inline-block;
-  cursor: pointer;
-  margin-top: 5px;
-  padding: 12px 80px;
-  background-color: #5dca88;
-  box-shadow: 0px 5px #279C56;
-  border-radius: 25px;
-  color: #fff;
-  font-size: 30px;
-}
-.btn2:active{
+.btn:active{
   position: relative;
   top: 5px;
   box-shadow: none;
@@ -97,35 +103,24 @@ a:hover{
 /*コメント欄の設定*/
 .comment-form {
   margin: 20px;
-  padding: 0px 35px;
+  padding: 25px 35px;
   background-color: #333;
   border: solid;
   text-align: center;
 }
-/* inputとtextareaのCSSを指定してください */
-input{
-  width:400px;
-  margin-top:10px;
-  margin-bottom:30px;
-  padding:20px;
-  font-size:18px;
-  border:1px solid #dee7ec;
+.section-title{
+  margin: 0px 0px;
 }
 textarea{
   width:400px;
   height: 200px;
-  margin-top:10px;
-  margin-bottom:30px;
+  margin-top:0px;
+  margin-bottom:10px;
   padding:20px;
   font-size:18px;
   border:1px solid #dee7ec;
 }
-/* contact-submitのCSSを指定してください */
-.contact-submit{
-  cursor: pointer;
-  background-color:#dee7ec;
-  color:#889eab;
-}
+
 .hover-text{
   display: none;
 }
