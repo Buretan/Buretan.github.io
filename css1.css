@@ -51,7 +51,7 @@ li{
   transform: skewx(-30deg);
 }
 .footer{
-  margin:15px auto;
+  margin:0px auto;
   padding: 30px;
   width: 100%;
   max-width: 950px;
@@ -122,4 +122,139 @@ textarea{
 
 .hover-text{
   display: none;
+}
+
+.main2{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: -15px auto;
+  padding: 0px;
+  width: 100%;
+  max-width: 1010px;
+  height: 1350px;
+  background-color: #390;
+  color: #000;
+  overflow: hidden;
+}
+
+.about{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 20px auto;
+  padding: 10px 0px;
+  width: 100%;
+  height: 1200px;
+  border: 0px solid #000;
+  background-repeat: round;
+}
+.about li{
+  list-style: none;
+}
+.content{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 50px auto;
+  padding: 10px 0px;
+  width: 70%;
+  height: 250px;
+  border: 1px solid #fff;
+}
+.text1{
+  position: relative;
+  top: 20px;
+  left: -150px;
+  margin: 0px auto;
+  padding: 60px 50px;
+  width: 230px;
+  height: 128px;
+  border: 0px solid #000;
+  font-size: 60px;
+  color: #fff;
+}
+.img1{
+  position: relative;
+  top: -248px;
+  left: 122px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  width: 250px;
+  height: 250px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.text2{
+  position: relative;
+  top: 0px;
+  left: -150px;
+  margin: 0px auto;
+  padding: 60px 50px;
+  width: 230px;
+  height: 128px;
+  border: 0px solid #000;
+  font-size: 30px;
+  color: #fff;
+}
+.img2{
+  position: relative;
+  top: -248px;
+  left: 122px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  width: 250px;
+  height: 250px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.text3{
+  position: relative;
+  top: 0px;
+  left: -150px;
+  margin: 0px auto;
+  padding: 60px 50px;
+  width: 230px;
+  height: 128px;
+  border: 0px solid #000;
+  font-size: 30px;
+  color: #fff;
+}
+.img3{
+  position: relative;
+  top: -248px;
+  left: 122px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  width: 250px;
+  height: 250px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
+}
+.text4{
+  position: relative;
+  top: 0px;
+  left: -150px;
+  margin: 0px auto;
+  padding: 60px 50px;
+  width: 230px;
+  height: 128px;
+  border: 0px solid #000;
+  font-size: 30px;
+  color: #fff;
+}
+.img4{
+  position: relative;
+  top: -248px;
+  left: 122px;
+  margin: 0px auto;
+  padding: 0px 0px;
+  width: 250px;
+  height: 250px;
+  border: 0px solid #000;
+  background-image: url(D:/WebDesign1/img/logo.png);
+  background-repeat: round;
 }
