@@ -100,7 +100,7 @@ li{
 }
 .btn:active{
   position: relative;
-  top: 5px;
+   top: 5px;
   box-shadow: none;
 }
 /*コメント欄の設定*/
@@ -130,22 +130,21 @@ textarea{
 
 .main2{
   position: relative;
-  top: 0px;
-  left: 0px;
-  margin: -15px auto;
+   top: 0px;
+   left: 0px;
+  margin: 0px auto;
   padding: 0px;
-  width: 100%;
-  max-width: 1010px;
-  height: 1350px;
+  width: 1010px;
+  height: 1400px;
   background-color: #390;
   color: #000;
-  overflow: hidden;
+  overflow: hidden
 }
 
 .about{
   position: relative;
-  top: 0px;
-  left: 0px;
+   top: 0px;
+   left: 0px;
   margin: 20px auto;
   padding: 10px 0px;
   width: 100%;
@@ -158,8 +157,8 @@ textarea{
 }
 .content{
   position: relative;
-  top: 0px;
-  left: 0px;
+   top: 0px;
+   left: 0px;
   margin: 50px auto;
   padding: 10px 0px;
   width: 70%;
@@ -168,8 +167,8 @@ textarea{
 }
 .text1{
   position: relative;
-  top: 20px;
-  left: -150px;
+   top: 20px;
+   left: -150px;
   margin: 0px auto;
   padding: 60px 50px;
   width: 230px;
@@ -180,8 +179,8 @@ textarea{
 }
 .img1{
   position: relative;
-  top: -248px;
-  left: 122px;
+   top: -248px;
+   left: 122px;
   margin: 0px auto;
   padding: 0px 0px;
   width: 250px;
@@ -192,8 +191,8 @@ textarea{
 }
 .text2{
   position: relative;
-  top: 0px;
-  left: -150px;
+   top: 0px;
+   left: -150px;
   margin: 0px auto;
   padding: 60px 50px;
   width: 230px;
@@ -204,8 +203,8 @@ textarea{
 }
 .img2{
   position: relative;
-  top: -248px;
-  left: 122px;
+   top: -248px;
+   left: 122px;
   margin: 0px auto;
   padding: 0px 0px;
   width: 250px;
@@ -216,8 +215,8 @@ textarea{
 }
 .text3{
   position: relative;
-  top: 0px;
-  left: -150px;
+   top: 0px;
+   left: -150px;
   margin: 0px auto;
   padding: 60px 50px;
   width: 230px;
@@ -228,8 +227,8 @@ textarea{
 }
 .img3{
   position: relative;
-  top: -248px;
-  left: 122px;
+   top: -248px;
+   left: 122px;
   margin: 0px auto;
   padding: 0px 0px;
   width: 250px;
@@ -240,8 +239,8 @@ textarea{
 }
 .text4{
   position: relative;
-  top: -25px;
-  left: -150px;
+   top: -25px;
+   left: -150px;
   margin: 0px auto;
   padding: 60px 50px;
   width: 230px;
@@ -252,8 +251,8 @@ textarea{
 }
 .img4{
   position: relative;
-  top: -248px;
-  left: 122px;
+   top: -248px;
+   left: 122px;
   margin: 0px auto;
   padding: 0px 0px;
   width: 250px;
