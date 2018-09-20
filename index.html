@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="header">
-          <!--ブログタイトル的なもの　-->
+          <!--ブログタイトル-->
           <div class="title">
             Test-Page
             <br>
@@ -19,10 +19,8 @@
               <a href="Design1.html">about</a>
             </div>
           </div>
- 
-        </div>
+         </div>
       <!--本文　-->
-
       <div class="main">
         <ul id="slanting01">
             <li>
@@ -38,12 +36,13 @@
         <div class="action-list">
           画像を挿入
         </div>
-
+     <!--コメント出力モニター-->
           <pre class="window" id="monitor">入力ボタンを押すとコメント欄の内容が表示されます。
           </pre>
+     <!--コメント欄-->
         <div class="comment-form">
           <h3 class="section-title">コメント欄(仮)</h3>
-          <div class="hover-text">ちーーーーーーっす(ﾟДﾟ　)
+          <div class="hover-text">JQueryで浮かび上がります(ﾟДﾟ　)
           </div>
           <form name="form1">
             <textarea id="text" name="textarea1" value="1" rows="5" cols="80"></textarea>
@@ -56,67 +55,63 @@
           </div>
           <div class="btn" id="fadeIn-text">ウィンドウ復帰
           </div>
-
         </div>
         </div>
-      
+     <!--コンテンツエリア--> 
         <div class="main2">
-          <!--コンテンツエリア-->
           <div class="about">
-
-          <!--コンテンツ1-->
+     <!--コンテンツ1-->
             <ul class="content">
               <li class="text1">about</li>
               <li class="img1"></li>
             </ul>
-
-          <!--コンテンツ2-->
+     <!--コンテンツ2-->
             <ul class="content">
               <li class="text2">This is Buretan's test-page</li>
               <li class="img2"></li>
             </ul>
-
-          <!--コンテンツ3-->
+     <!--コンテンツ3-->
             <ul class="content">
               <li class="text3">I like food's, sweets,noodle and piza.</li>
               <li class="img3"></li>
             </ul>
-
-          <!--コンテンツ4-->
+     <!--コンテンツ4-->
             <ul class="content">
               <li class="text4">
                 My hobby is reading, music and play video game.
               </li>
               <li class="img4"></li>
             </ul>
-
           </div>
         </div>
-        <div class="footer">ご覧の技術で提供しております
+     <!--フッター-->
+      <div class="footer">ご覧の技術で提供しております
           <br>
-          ・html,css,javascript,jquery
-        </div>
-      
+          ・html,css,Javascript,JQuery
+      </div>
+     <!--ここからJQ処理-->      
       <script type="text/javascript">
       $(function(){
         // 「#送信ボタン」へカーソルを合わせた時の動作
         $('.comment-form').hover(
-          function(){
-            $('.hover-text').fadeIn();
-        },
-          function(){
-            $('.hover-text').fadeOut();
-          })
-
-        $('#fadeIn-text').click(function(){   //復帰ボタンの動作
-        $('.window').fadeIn();           //押すとpreテキストが復帰する
+        function(){
+        $('.hover-text').fadeIn();
+                  },
+        function(){
+        $('.hover-text').fadeOut();
+                  })
+        //復帰ボタンの動作
+        $('#fadeIn-text').click(function(){   
+        //押すとコメント入力欄が復帰する
+        $('.window').fadeIn();           
         });
-        $('#fadeOut-text').click(function(){　//消去ボタンの動作
-        $('.window').fadeOut();          //押すとpreテキストが消える
+        //消去ボタンの動作
+        $('#fadeOut-text').click(function(){　
+        //押すとpreテキストが消える
+        $('.window').fadeOut();          
         });
-
-      });
-
+        });
+        //ここからJS処理
         //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
         function btn1Click(){
         //変数t1を宣言しテキストエリアの値(value)を代入
@@ -124,10 +119,9 @@
         //モニター画面にt１を代入
         document.getElementById("monitor").innerHTML=t1;
                             }
-
         //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
         function btn2Click(){
-        //モニター画面に空白を代入
+        //モニター画面と入力欄を消去(空白を代入)
         document.getElementById("monitor").innerHTML="";
         document.getElementById("text").value="";
                           }
