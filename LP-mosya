@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>経営者が集まる情報メディア「経営マガジン」で活動しませんか？</title>
+    <!--stylesheet読み込み -->
+    <link rel="stylesheet" href="LP1.css">
+    <!--font-awesome読み込み -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!--jQuery読み込み -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  </head>
+  <body>
+    <!--ヘッダー-->
+    <div class="header">
+      <ul>
+        <li class="fa fa-home">TOP</li>
+        <li class="fa fa-lightbulb">悩みを解決</li>
+        <li class="fa fa-building">経営マガジンとは</li>
+        <li class="fa fa-envelope">集客の流れ</li>
+        <li class="fa fa-sync-alt">活動までの流れ</li>
+        <div class="te1">無料登録する</div>
+      </ul>
+    </div>
+    <div class="top-img">
+      <div class="main1">
+        <li class="tex0">月間５万人の経営者が訪れる、経営マガジン</li>
+        <li> <img src="D:\programingu\lp\h1_img.png" alt=""> </li>
+        <li class="tex1">士業・経営コンサルの方を中心とした</li>
+        <li class="tex1">BtoBのインバウンドマーケティングを支援します</li>
+        <li class="tex2">無料登録して活動する</li>
+      </div>
+    </div>
+    <div class="text-area">
+      <div class="main2">
+       <h3 class="t1">このような悩みを解決します</h3>
+       <h3 class="t2">Resolve trouble</h3>
+       <div class="line1"></div>
+       <ul>
+       <li class="t3">
+         <img src="D:\programingu\lp\fukidasi.png" alt="">
+         <br>
+       問合せを獲得したい
+       <p class="t4">
+       貴社のノウハウ・知見を経営マガ<br>
+       ジンにコラムとして無料で掲載す<br>
+       ることにより、それを見たお客様<br>
+       が仕事の相談や依頼をしたりと、<br>
+       問合せを獲得できるチャンスが増<br>
+       えます。
+       </p>
+       </li>
+       <li class="t3">
+         <img src="D:\programingu\lp\file.png" alt="">
+         <br>
+       営業リストを獲得したい
+       <p class="t4">
+       貴社のビジネス文章の書式をアッ<br>
+       プロードすることにより、ダウン<br>
+       ロードしたお客様の情報を閲覧す<br>
+       ることができます。より多くの見<br>
+       込み客を獲得し、効率的に営業活<br>
+       動につなげることができます。
+       </p>
+       </li>
+       <li class="t3">
+         <img src="D:\programingu\lp\mail.png" alt="">
+         <br>
+       見込み客を育成したい
+       <p class="t4">
+       見込み客を集める(リードジェネ<br>
+       レーション)だけでなくメルマガ<br>
+       配信する機能をご用意していま<br>
+       す。これによりBtoBで重要な見<br>
+       込み客を育てる(リードナーチャ<br>
+       リング)ことができます
+       </p>
+       </li>
+       <li class="t3">
+         <img src="D:\programingu\lp\site.png" alt="">
+         <br>
+       ブランディングしたい
+       <p class="t4">
+       月間5万人が訪れる経営マガジン<br>
+       に貴社専用の掲載ページが開設さ<br>
+       れます。さらにノウハウやビジネ<br>
+       ス文章の書式を作成することで、<br>
+       経営者層に対してブランディング<br>
+       することができます。
+       </p>
+       </li>
+       </ul>
+      </div>
+    </div>
+      <!--　-->
+    <div class="bg1">
+      <div class="text-area">
+        <div class="main3">
+        <h3 class="t-f1">経営マガジンについて</h3>
+        <h3 class="t-f2">About media</h3>
+          <div class="line2"></div>
+            <div class="box1">
+              <div class="pc-img">
+                <img src="D:\programingu\lp\pc.png" alt="">
+              </div>
+              <div class="m3-text">
+                <h3 class="m3t-1">今年で12年目の経営者向け情報メディア</h3>
+                <h3>
+                経営様をターゲットとして、役に立つ情報や、ビジネス文章の書式を提供したり<br>
+                しております。今年で12年目のメディアとなっており、会員数は6万人を超え、<br>
+                毎月5万人の方がサイトを訪れています。
+                </h3>
+                <h3>
+                  経営、営業、集客、経理、人事、ITとカテゴリが多岐に分かれており、無料登録<br>
+                  すると好きなカテゴリへノウハウ・知見を投稿できます。現在全ての機能を無料<br>
+                  でお使いできるようになっています。
+                </h3>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!--　-->
+      <div class="bg2">
+        <div class="text-area">
+          <div class="ber">
+            <ul>
+              <li>
+                サイト運営日 <br><span>2005年</span>
+              </li>
+              <li>
+                会員数　<br><span>65,184人</span>
+              </li>
+              <li>
+                月間訪問者数　<br><span>54,240人</span>
+              </li>
+              <li>
+                コラム数　<br><span>9,920件</span>
+              </li>
+              <p class="b-none">
+                書式・テンプレ数　<br><span>491件</span>
+              </p>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--　-->
+      <div class="text-area">
+      <div class="main4">
+       <h3 class="t1">ブランディングから見込み客の獲得まで</h3>
+       <h3 class="t2">Flow of prospect acquisition</h3>
+       <div class="line1"></div>
+       <div class="m4-contents">
+        <div class="m4-text1">
+         <h3 class="t5">経営マガジンでできること</h3>
+         <br>
+         <h3>
+           ノウハウや知見を投稿するためのコラム作成機能、ビジネス文章の書式やテンプレー<br>
+           トを投稿する機能、貴社専用の問合せフォーム作成機能、貴社の会社概要情報の作成<br>
+           機能、問合せユーザの管理機能、問合せユーザへのメルマガ配信機能といった、<span>ブラ<br>
+           ンディング・見込み客獲得に必要な機能が揃っています。</span>お申込みからたったの1<br>
+           分で管理画面にログインでき、<span>今ならこれら全ての機能を無料でご利用頂けます。</span>
+         </h3>
+          </div>
+        <div class="m4-img1">
+         <img src="D:\programingu\lp\image.png" alt="">
+          </div>
+            </div>
+            <div class="m4-text2">
+            <h3 class="t5">見込み客を獲得して商談の機会を増やす</h3>
+            <h3>
+              貴社のノウハウや知見、保有しているビジネス文章を投稿することにより、<span>見込み客を集めて管理</span>できます。 <br>
+              さらに貴社専用の管理画面から見込み客へのメルマガ配信することで、<span>見込み客を顧客へと育成し商談のチャンスを増やす</span>ことが出来ます。
+            </h3>
+              <br>
+              <img src="D:\programingu\lp\lead_flow.png" alt="">
+                </div>
+       <div class="m4-contents">
+          <div class="m4-text1">
+            <h3 class="t5">運用歴12年による確かなドメインパワー</h3>
+            <h3>
+              ノウハウ・知見を元に作成したコラム記事は、経営マガジンをチェックしている経営<br>
+              者だけでなく、Googleなどの検索エンジンにて上位に表示されるため、様々なユー<br>
+              ザーに見てもらうことができます。<span>｢役務｣という月間1万回近く検索されるキーワー<br>
+              ドで3位を獲得しており、ノウハウ記事だけでなく、ビジネス用語をわかりやすく解<br>
+              説するだけでも多大なアクセスを獲得することも不可能ではありません。</span>
+              <br>
+             ※投稿された記事の品質を保つべく、メディア編集長による審査・修正をしておりま<br>
+             す。そのため単なる自社の宣伝、自社ＨＰからのコピペといった記事は基本的にお断<br>
+             りしております。
+              </h3>
+                </div>
+                  <div class="m4-img1">
+                    <img src="D:\programingu\lp\mag_rank.png" alt="">
+                      </div>
+      </div>
+      </div>
+      </div>
+      <!--　-->
+      <div class="bg1">
+        <div class="text-area">
+
+      <div class="main5">
+       <h3 class="t-f1">活動までの流れ</h3>
+       <h3 class="t-f2">Flow to activities</h3>
+       <div class="line2"></div>
+       <div class="m5-contents">
+         <li>
+           <div class="m5-flow">
+           <img src="D:\programingu\lp\flow_1.png" alt="">
+           <div class="step">
+             <h4 class="t6">STEP1</h4>
+             <h3 class="t7">お申込み</h3></div>
+           </div>
+         <div class="m5-text">
+         貴社の情報を入力のうえ送信すると、
+         <br>
+         リアルタイムに貴社専用の管理画面が
+         <br>
+         発行されます。
+         </div>
+         </li>
+         <li>
+           <div class="m5-flow">
+           <img src="D:\programingu\lp\flow_2.png" alt="">
+           <div class="step">
+             <h4 class="t6">STEP2</h4>
+             <h3 class="t7">ページ作成</h3></div>
+           </div>
+         <div class="m5-text">
+         管理画面より経営者に役立つページや
+         <br>
+         ビジネス文章等を作成し、審査が通れ
+         <br>
+         ば公開されます。
+         </div>
+         </li>
+         <li>
+           <div class="m5-flow">
+           <img src="D:\programingu\lp\flow_3.png" alt="">
+           <div class="step">
+             <h4 class="t6">STEP3</h4>
+             <h3 class="t7">問合せ獲得</h3></div>
+           </div>
+         <div class="m5-text">
+         お問合せや資料がDLされた場合、管理
+         <br>
+         画面に顧客情報が表示されるので、好
+         <br>
+         きなように営業できます。
+         </div>
+         </li>
+       </div>
+      </div>
+
+        </div>
+      </div>
+      <!--　-->
+      <div class="text-area">
+      <div class="Registration-form">
+        <h1 class="t1">無料ご登録はこちら</h1>
+        <h4 class="t2">Register form</h4>
+        <div class="line1"></div>
+        <ul>
+          <h3>会社名<span class="red-font">（必須）</span></h3>
+            <input class="input-style1" type="text" name="" placeholder="株式会社比較ビズ">
+          <h3>代表者指名<span class="red-font">（必須）</span></h3>
+            <input class="input-style1" type="text" name="" placeholder="比較　太郎">
+          <h3>メールアドレス<span class="red-font">（必須）</span></h3>
+            <input class="input-style1" type="email" name="" placeholder="info@keiei.ne.jp">
+          <h3>ホームページＵＲＬ</h3>
+            <input class="input-style1" type="url" name="" placeholder="www.keiei.ne.jp">
+          <h3>郵便番号</h3>
+            <input class="input-style2" type="text" name="" placeholder="">
+          <h3>住所<span class="red-font">（必須）</span></h3>
+            <select class="input-style2" name="pref">
+              <option value="">選択してください</option>
+              <option value="北海道">北海道</option>
+              <option value="青森県">青森県</option>
+              <option value="岩手県">岩手県</option>
+              <option value="宮城県">宮城県</option>
+              <option value="秋田県">秋田県</option>
+              <option value="山形県">山形県</option>
+              <option value="福島県">福島県</option>
+              <option value="茨城県">茨城県</option>
+              <option value="栃木県">栃木県</option>
+              <option value="群馬県">群馬県</option>
+              <option value="埼玉県">埼玉県</option>
+              <option value="千葉県">千葉県</option>
+              <option value="東京都">東京都</option>
+              <option value="神奈川県">神奈川県</option>
+              <option value="新潟県">新潟県</option>
+              <option value="富山県">富山県</option>
+              <option value="石川県">石川県</option>
+              <option value="福井県">福井県</option>
+              <option value="山梨県">山梨県</option>
+              <option value="長野県">長野県</option>
+              <option value="岐阜県">岐阜県</option>
+              <option value="静岡県">静岡県</option>
+              <option value="愛知県">愛知県</option>
+              <option value="三重県">三重県</option>
+              <option value="滋賀県">滋賀県</option>
+              <option value="京都府">京都府</option>
+              <option value="大阪府">大阪府</option>
+              <option value="兵庫県">兵庫県</option>
+              <option value="奈良県">奈良県</option>
+              <option value="和歌山県">和歌山県</option>
+              <option value="鳥取県">鳥取県</option>
+              <option value="島根県">島根県</option>
+              <option value="岡山県">岡山県</option>
+              <option value="広島県">広島県</option>
+              <option value="山口県">山口県</option>
+              <option value="徳島県">徳島県</option>
+              <option value="香川県">香川県</option>
+              <option value="愛媛県">愛媛県</option>
+              <option value="高知県">高知県</option>
+              <option value="福岡県">福岡県</option>
+              <option value="佐賀県">佐賀県</option>
+              <option value="長崎県">長崎県</option>
+              <option value="熊本県">熊本県</option>
+              <option value="大分県">大分県</option>
+              <option value="宮崎県">宮崎県</option>
+              <option value="鹿児島県">鹿児島県</option>
+              <option value="沖縄県">沖縄県</option>
+            </select>
+              <input class="input-style3" type="text" name="" placeholder="◯◯市">
+                <input class="input-style4" type="text" name="" placeholder="◯◯町◯-◯◯ ◯◯ビル◯階">
+          <h3>電話番号<span class="red-font">（必須）</span></h3>
+            <input class="input-style1" type="tel" name="" placeholder="0120-00-0000">
+          <h3>業種<span class="red-font">（必須）</span></h3>
+            <select class="input-style5" name="type-Industry">
+              <option value="選択してください">選択してください</option>
+              <option value="選択してください">士業：公認会計士</option>
+              <option value="選択してください">士業：税理士</option>
+              <option value="選択してください">士業：社会保険労務士</option>
+              <option value="選択してください">士業：司法書士</option>
+              <option value="選択してください">士業：行政書士</option>
+              <option value="選択してください">士業：弁護士</option>
+              <option value="選択してください">士業：弁理士</option>
+              <option value="選択してください">IT：ホームページ開発</option>
+              <option value="選択してください">IT：システム開発</option>
+              <option value="選択してください">IT：ソフトウェア開発</option>
+              <option value="選択してください">IT：ネットワーク構築</option>
+              <option value="選択してください">IT：サービス提供</option>
+              <option value="選択してください">デザイン・ライター・映像</option>
+              <option value="選択してください">広告・広告代理店</option>
+              <option value="選択してください">営業支援・販売促進</option>
+              <option value="選択してください">データ入力・収集・加工</option>
+              <option value="選択してください">印刷業</option>
+              <option value="選択してください">不動産業</option>
+              <option value="選択してください">人材教育・研修</option>
+              <option value="選択してください">企業向けサービス提供</option>
+              <option value="選択してください">金融・証券・保険</option>
+              <option value="選択してください">店舗・オフィス建設</option>
+              <option value="選択してください">建設業：設計・デザイン</option>
+              <option value="選択してください">建設業：施工・工務店</option>
+              <option value="選択してください">建設業：設備・電気・管工事</option>
+              <option value="選択してください">建設業：基礎・土木工事</option>
+              <option value="選択してください">建設業：外装・内装工事</option>
+              <option value="選択してください">建設業：家具・インテリア</option>
+              <option value="選択してください">建設業：その他</option>
+              <option value="選択してください">オフィス機器・家具販売</option>
+              <option value="選択してください">フランチャイズ運営</option>
+              <option value="選択してください">コンサルタント：経営</option>
+              <option value="選択してください">コンサルタント：営業</option>
+              <option value="選択してください">コンサルタント：人事・組織</option>
+              <option value="選択してください">コンサルタント：ISO関連</option>
+              <option value="選択してください">コンサルタント：その他</option>
+              <option value="選択してください">採用：人材サービス・広告</option>
+              <option value="選択してください">採用：人材派遣・紹介</option>
+              <option value="選択してください">物流：運送・配送</option>
+              <option value="選択してください">物流：倉庫・保管・在庫管理</option>
+              <option value="選択してください">物流：産業廃棄物処理</option>
+              <option value="選択してください">製造業：食料・飲料品</option>
+              <option value="選択してください">製造業：アパレル</option>
+              <option value="選択してください">製造業：木製品・紙製品</option>
+              <option value="選択してください">製造業：プラスチック・ゴム</option>
+              <option value="選択してください">製造業：非鉄金属</option>
+              <option value="選択してください">製造業：金属製品</option>
+              <option value="選択してください">製造業：一般機械器具</option>
+              <option value="選択してください">製造業：電気機械器具</option>
+              <option value="選択してください">製造業：情報通信機械器具</option>
+              <option value="選択してください">製造業：電子部品・デバイス</option>
+              <option value="選択してください">製造業：輸送用機械器具</option>
+              <option value="選択してください">製造業：精密機械器具</option>
+              <option value="選択してください">製造業：その他</option>
+              <option value="選択してください">その他</option>
+              <option value="選択してください">士業：公認会計士・税理士</option>
+              <option value="選択してください">士業：司法書士・行政書士</option>
+              <option value="選択してください">士業：弁護士・弁理士</option>
+            </select>
+        </ul>
+        <div class="r-box">
+          <h3>会員IDとパスワード設定について</h3>
+          <!--ラジオボタン-->
+          <label for="r1">
+            <input type="radio" id="r1" name="idPass" value="">自動発行
+          </label>
+          <label for="r2">
+            <input type="radio" id="r2" name="idPass" value="">自分で設定する
+          </label>
+          <div class="btn">入力内容を確認する</div>
+        </div>
+      </div>
+      </div>
+      <!--　-->
+    </div>
+    <div class="footer">
+      <ul>
+      <h3 class="f-font1">経営MAGAZINE - 基本情報</h3>
+        <li>会社概要</li>
+        <li>利用規約</li>
+        <li>プライバシポリシー</li>
+        <li>広告掲載について</li>
+        <li>採用情報</li>
+      </ul>
+      <ul>
+        <h3 class="f-font1">経営MAGAZINE = コンテンツ</h3>
+        <li>ビジネス文章・ビジネス書式集</li>
+        <li>ビジネス用語・経営用語辞典</li>
+        <li>エニアグラム性格診断</li>
+        <br>
+        <li>比較ビズ　　比較ビズまとめ</li>
+      </ul>
+      <h3 class="Copyright">Copyright(c) 2014 KEIEI MAGAZINE.All rights reerved.</h3>
+
+    </div>
+    <script type="text/javascript">
+    $(function() {
+      var hideheader = $('.header');
+      hideheader.hide();
+      //スクロールが500に達したらボタン表示
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 500) {
+              hideheader.slideDown(500);
+          } else {
+              hideheader.slideUp(500);
+          }
+      });
+  })
+    </script>
+  </body>
+</html>
