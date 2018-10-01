@@ -11,3 +11,18 @@
         }
       });
     });
+
+      //ラジオボタンのオンオフ検出によるcss操作
+      //htmlのinputタグ内にonchange="onRadioButtonChange();"をいれないと機能しない
+        function onRadioButtonChange()  {
+          radiobtn1 = document.getElementById("r1");
+          radiobtn2 = document.getElementById("r2");
+          target = document.getElementById("s1");
+
+          if (radiobtn1.checked == true) {
+            target.style.display = "none";
+          }
+          else if (radiobtn2.checked == true) {
+            target.style.display = "block";
+            }
+          }
