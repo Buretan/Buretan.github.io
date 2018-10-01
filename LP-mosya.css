@@ -659,6 +659,9 @@ img{
   border: 1px solid;
   font-size: 10px;
 }
+.setting p{
+  font-size: 10px;
+}    
 }
 .r-box{
   margin:5% auto;
@@ -669,6 +672,10 @@ img{
 }
 .r-box h3{
   margin: 0px;
+}
+.setting{
+  display: none;
+  padding-left: 40px;
 }
 .btn{
   margin: 3% auto;
