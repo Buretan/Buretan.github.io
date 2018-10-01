@@ -217,23 +217,23 @@
       </div>
       <!--　-->
       <div class="text-area">
-      <div class="Registration-form">
-        <h1 class="t1">無料ご登録はこちら</h1>
-        <h4 class="t2">Register form</h4>
-        <div class="line1"></div>
-        <ul>
-          <h3>会社名<span class="red-font">（必須）</span></h3>
-            <input class="input-style1" type="text" name="" placeholder="株式会社比較ビズ">
-          <h3>代表者指名<span class="red-font">（必須）</span></h3>
-            <input class="input-style1" type="text" name="" placeholder="比較　太郎">
-          <h3>メールアドレス<span class="red-font">（必須）</span></h3>
-            <input class="input-style1" type="email" name="" placeholder="info@keiei.ne.jp">
-          <h3>ホームページＵＲＬ</h3>
-            <input class="input-style1" type="url" name="" placeholder="www.keiei.ne.jp">
-          <h3>郵便番号</h3>
-            <input class="input-style2" type="text" name="" placeholder="">
-          <h3>住所<span class="red-font">（必須）</span></h3>
-            <select class="input-style2" name="pref">
+        <div class="Registration-form">
+          <h1 class="t1">無料ご登録はこちら</h1>
+          <h4 class="t2">Register form</h4>
+          <div class="line1"></div>
+          <ul>
+            <h3>会社名<span class="red-font">（必須）</span></h3>
+              <input class="input-style1" type="text" name="" placeholder="株式会社比較ビズ">
+            <h3>代表者指名<span class="red-font">（必須）</span></h3>
+              <input class="input-style1" type="text" name="" placeholder="比較　太郎">
+            <h3>メールアドレス<span class="red-font">（必須）</span></h3>
+              <input class="input-style1" type="email" name="" placeholder="info@keiei.ne.jp">
+            <h3>ホームページＵＲＬ</h3>
+              <input class="input-style1" type="url" name="" placeholder="www.keiei.ne.jp">
+            <h3>郵便番号</h3>
+              <input class="input-style2" type="text" name="" placeholder="">
+            <h3>住所<span class="red-font">（必須）</span></h3>
+              <select class="input-style2" name="pref">
               <option value="">選択してください</option>
               <option value="北海道">北海道</option>
               <option value="青森県">青森県</option>
@@ -283,12 +283,12 @@
               <option value="鹿児島県">鹿児島県</option>
               <option value="沖縄県">沖縄県</option>
             </select>
-              <input class="input-style3" type="text" name="" placeholder="◯◯市">
-                <input class="input-style4" type="text" name="" placeholder="◯◯町◯-◯◯ ◯◯ビル◯階">
-          <h3>電話番号<span class="red-font">（必須）</span></h3>
-            <input class="input-style1" type="tel" name="" placeholder="0120-00-0000">
-          <h3>業種<span class="red-font">（必須）</span></h3>
-            <select class="input-style5" name="type-Industry">
+                <input class="input-style3" type="text" name="" placeholder="◯◯市">
+                  <input class="input-style4" type="text" name="" placeholder="◯◯町◯-◯◯ ◯◯ビル◯階">
+            <h3>電話番号<span class="red-font">（必須）</span></h3>
+              <input class="input-style1" type="tel" name="" placeholder="0120-00-0000">
+            <h3>業種<span class="red-font">（必須）</span></h3>
+              <select class="input-style5" name="type-Industry">
               <option value="選択してください">選択してください</option>
               <option value="選択してください">士業：公認会計士</option>
               <option value="選択してください">士業：税理士</option>
@@ -349,27 +349,28 @@
               <option value="選択してください">士業：司法書士・行政書士</option>
               <option value="選択してください">士業：弁護士・弁理士</option>
             </select>
-        </ul>
-        <div class="r-box">
-          <h3>会員IDとパスワード設定について</h3>
-          <!--ラジオボタン-->
-          <label for="r1">
-            <input type="radio" id="r1" name="idPass" value=""　onchange="onRadioButtonChange();">自動発行
-          </label>
-          <label for="r2">
-            <input type="radio" id="r2" name="idPass" value=""　onchange="onRadioButtonChange();">自分で設定する
-          </label>
-        <div class="setting" id="s1">
-          <h3>会員ID<span class="red-font">（必須）</span></h3>
-            <p>管理画面にログインするIDを設定してください</p>
-              <input class="input-style1" type="tel" name="" placeholder="keieimagazine">
-          <h3>パスワード<span class="red-font">（必須）</span></h3>
-            <p>管理画面にログインするパスワードを設定してください</p>
-              <input class="input-style1" type="tel" name=""placeholder="keiei123tarou">
-        </div>
+          </ul>
+          <div class="r-box" name="form1">
+            <h3>会員IDとパスワード設定について</h3>
+            <!--ラジオボタン-->
+            <label for="r1">
+            <!--labelのforとinputのidを合わせることでテキストをクリックすることでチェックが機能するようにしている-->
+              <input type="radio" id="r1" name="idPass" value=""  onchange="onRadioButtonChange();">自動発行
+            </label>
+            <label for="r2">
+              <input type="radio" id="r2" name="idPass" value="" onchange="onRadioButtonChange();">自分で設定する
+            </label>
+          </div>
+            <div class="setting" id="s1">
+              <h3>会員ID<span class="red-font">（必須）</span></h3>
+                <p>管理画面にログインするIDを設定してください</p>
+                  <input class="input-style1" type="tel" name="" placeholder="keieimagazine">
+              <h3>パスワード<span class="red-font">（必須）</span></h3>
+                <p>管理画面にログインするパスワードを設定してください</p>
+                  <input class="input-style1" type="tel" name=""placeholder="keiei123tarou">
+            </div>
           <div class="btn">入力内容を確認する</div>
         </div>
-      </div>
       </div>
       <!--　-->
     <div class="bg2">
