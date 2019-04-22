@@ -74,7 +74,7 @@ img{
 .top-img{
   width: 100%;
   height: 538px;
-  background-image: url(../css/main_bg.jpg);
+  background-image: url(../img/main_bg.jpg);
   background-position: center center;
   /*cover:縦横比は保持して、背景領域を完全に覆う最小サイズになるように背景画像を拡大縮小する*/
   background-size: cover;
