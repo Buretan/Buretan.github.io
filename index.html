@@ -1,131 +1,15 @@
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Buretan's blog test view</title>
-      <link rel="stylesheet" href="css1.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    </head>
-    <body>
-        <div class="header">
-          <!--ブログタイトル-->
-          <div class="title">
-            Test-Page
-            <br>
-            <span class="subtitle">~subtitle~</span>
-            <br>
-            <div class="link">
-              <a href="index.html">top</a>
-              <a href="LP-mosya.html">about</a>
-            </div>
-          </div>
-         </div>
-      <!--本文　-->
-      <div class="main">
-        <ul id="slanting01">
-            <li>
-                <img class="img" src="sutadon.jpg" alt="">
-            </li>
-            <li>
-                <img class="img" src="sutadon.jpg" alt="">
-            </li>
-            <li>
-                <img class="img" src="sutadon.jpg" alt="">
-            </li>
-          </ul>
-        <div class="action-list">
-          画像を挿入
-        </div>
-     <!--コメント出力モニター-->
-          <pre class="window" id="monitor">入力ボタンを押すとコメント欄の内容が表示されます。
-          </pre>
-     <!--コメント欄-->
-<!--          <div class="comment-form">
-          <h3 class="section-title">コメント欄(仮)</h3>
-          <div class="hover-text">ちーーーーーーっす(ﾟДﾟ　)
-          </div>
-          <form name="form1">
-            <textarea id="text" name="textarea1" value="1" rows="5" cols="80"></textarea>
-          </form>
-          <div class="btn" id="btn1"  onclick="btn1Click();">入力
-          </div>
-          <div class="btn" id="btn2"  onclick="btn2Click();">削除
-          </div>
-          <div class="btn" id="fadeOut-text">ウィンドウ消去
-          </div>
-          <div class="btn" id="fadeIn-text">ウィンドウ復帰
-          </div>
-         </div> -->
-        </div>
-     <!--コンテンツエリア--> 
-        <div class="main2">
-          <div class="about">
-     <!--コンテンツ1-->
-            <ul class="content">
-              <li class="text1">about</li>
-              <li class="img1"></li>
-            </ul>
-     <!--コンテンツ2-->
-            <ul class="content">
-              <li class="text2">This is Buretan's test-page</li>
-              <li class="img2"></li>
-            </ul>
-     <!--コンテンツ3-->
-            <ul class="content">
-              <li class="text3">I like food's, sweets,noodle and piza.</li>
-              <li class="img3"></li>
-            </ul>
-     <!--コンテンツ4-->
-            <ul class="content">
-              <li class="text4">
-                My hobby is reading, music and play video game.
-              </li>
-              <li class="img4"></li>
-            </ul>
-          </div>
-        </div>
-     <!--フッター-->
-      <div class="footer">ご覧の技術で提供しております
-          <br>
-          ・html,css,Javascript,JQuery
-      </div>
-     <!--ここからJQ処理-->      
-      <script type="text/javascript">
-      $(function(){
-        // 「#送信ボタン」へカーソルを合わせた時の動作
-        $('.comment-form').hover(
-        function(){
-        $('.hover-text').fadeIn();
-                  },
-        function(){
-        $('.hover-text').fadeOut();
-                  })
-        //復帰ボタンの動作
-        $('#fadeIn-text').click(function(){   
-        //押すとコメント入力欄が復帰する
-        $('.window').fadeIn();           
-        });
-        //消去ボタンの動作
-        $('#fadeOut-text').click(function(){　
-        //押すとpreテキストが消える
-        $('.window').fadeOut();          
-        });
-        });
-        //ここからJS処理
-        //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
-        function btn1Click(){
-        //変数t1を宣言しテキストエリアの値(value)を代入
-        var t1=document.form1.textarea1.value;
-        //モニター画面にt１を代入
-        document.getElementById("monitor").innerHTML=t1;
-                            }
-        //ボタン2をクリックするとテキストボックス内の要素をwindowに表示する。
-        function btn2Click(){
-        //モニター画面と入力欄を消去(空白を代入)
-        document.getElementById("monitor").innerHTML="";
-        document.getElementById("text").value="";
-                          }
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ポートフォリオ</title>
+</head>
+<body>
+  <h1>ポートフォリオ一覧</h1>
+  <ul>
+    <li><a href="/LP-mosya.html">LP模写ページへ</a></li>
+    <li><a href="http://sys.keiei.ne.jp/partner/add/">模写サイト(経営マガジン様)</a></li>
 
-      </script>
-    </body>
-    </html>
+  </ul>
+</body>
+</html>
