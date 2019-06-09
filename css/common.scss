@@ -46,10 +46,16 @@ footer{
   font-size: 10px;
 }
 .portfolio{
-  margin: 0px auto;
+  margin: 0px 10px;
   width: auto;
   height: auto;
   max-width: max-content;
+}
+// 画面幅が600px未満の時は次のcssを適用する
+@media screen and(max-width:600px){
+  .portfolio{
+    margin: 0px auto;
+  }
 }
 .p-title{
   margin: 0px;
