@@ -1,0 +1,109 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+a{
+  text-decoration: none;
+  // cursor: pointer;
+}
+.header-wrap{
+  width: 100%;
+  height: 350px;
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 297px;
+  background-image: url(../img/bg_takeyabu.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+.headerTitle{
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  font-size: 25px;
+}
+.nav-ber{
+  width: 100%;
+  height: 53px;
+  background-color: #333;
+}
+.nav{
+  width:80%;
+  height: 53px;
+  margin:0 auto;
+  padding: 10px;
+  color: white;
+  background-color: #333;
+  line-height: initial;
+  ul{
+    margin: 0 auto;
+    text-align: center;
+    li{
+      width: 20%;
+      margin-right: 5%;
+      list-style: none;
+      float: left;
+    }
+  }
+}
+body{
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  background-color: #fff;
+}
+table{
+  background-color: white;
+  width: 90%;
+}
+th,td,tr{
+  border: solid 1px #333;
+  height: 50px;
+  text-align: center;
+}
+input{
+  width: 100%;
+  height: auto;
+}
+textarea{
+  width: 100%;
+}
+main{
+  width:80%;
+  height: auto;
+  // min-height: 100vw;
+  margin:0 auto;
+  background-color: yellow;
+  .leftMenu{
+    padding: 0px 10px;
+    width: 100%;
+    height: auto;
+    float: left;
+    background-color: green;
+  }
+}
+.contents-wrap{
+  margin-top: 20px;
+  text-align: center;
+}
+.clearfix:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+footer{
+
+  width:100%;
+  height: auto;
+  color:#ff0;
+  background-color: #000;
+  p{
+    width:100%;
+    height: 100px;
+    margin:0 10%;
+  }
+
+}
