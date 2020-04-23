@@ -3,10 +3,11 @@
 ////////////////////////////////
 $(function () {
   $(window).on("scroll", function () {
-    if ($(this).scrollTop() > $('.main2').offset().top) {
-      $(".header").slideDown();
+    if ($(this).scrollTop() > 537) {
+      // if ($(this).scrollTop() > $('.main2').offset().top) {
+      $(".header").slideDown(500);
     } else {
-      $(".header").slideUp();
+      $(".header").slideUp(500);
     }
   });
 });
