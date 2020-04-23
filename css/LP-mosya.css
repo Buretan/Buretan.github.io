@@ -48,7 +48,7 @@ img{
   height: auto;
   letter-spacing: 2.0px;
 }
-.header li a{
+.header li a,.tex2 a{
   text-decoration: none;
   color: white;
 }
